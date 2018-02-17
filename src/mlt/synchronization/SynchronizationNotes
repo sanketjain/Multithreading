@@ -1,0 +1,12 @@
+Java
+
+When multiple threads try to access a common resource, then there is 
+possibility of inconsistency. To avoid this inconsistency we use synchronization
+
+When threads are synchronized and a thread one accesses a resource,
+the java would put and intrinsic lock or monitor lock, so that no other thread can access the resource
+
+Three types of synchronization:
+1. Method level - methods are marked synchronized. A monitor lock is kept on that method when it runs. No other synchronized method can access that resource now
+2. Object level - Code Block synchronization. That means it is not based on class level. 
+3. Class level - Static element synchronization. 
